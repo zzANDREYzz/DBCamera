@@ -321,7 +321,7 @@ static const NSTimeInterval kAnimationIntervalTransform = 0.2;
         transform = CGAffineTransformTranslate(transform, -deltaX, -deltaY);
         
         CGFloat scale = recognizer.scale*self.imageView.transform.a;
-        NSLog(@"scale %f",scale);
+        
         if (scale<=1.0){
             transform.a = 1.0;
             transform.d = 1.0;
