@@ -17,7 +17,7 @@ static const CGFloat kPreviewImageSize = 120;
 static const CGFloat kDefaultCropWidth = 320;
 static const CGFloat kDefaultCropHeight = 320;
 static const NSTimeInterval kAnimationIntervalReset = 0.25;
-static const NSTimeInterval kAnimationIntervalTransform = 0.2;
+
 
 @interface DBCameraBaseCropViewController () <UIGestureRecognizerDelegate>
 @property (nonatomic,strong) UIPanGestureRecognizer *panRecognizer;
